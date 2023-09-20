@@ -2,7 +2,7 @@
 
 This repository provides code for our paper "Designing Phase Masks for Under-Display Cameras", ICCV 2023, Anqi Yang, Eunhee Kang, Hyong-Euk Lee, and Aswin C. Sankaranarayanan. If you find our data and code useful, please cite our work.
 
-<img src="./images/teaser.png" width="400">
+<img src="./images/teaser_white.png" width="400">
 
 ## Setup configuration
 The setup specifications for the proposed TOLED w/ phase mask is saved in `TOLED_phase_mask_package/PhasePlate_Params.mat`. Each configuration includes the display pixel pitch, focal length of microlens arrays, parameter T that controls the height of phase mask, and whether to use optimized / uniform sampled / fixed height map for each lenslet. You can specify the index of the configuration and simualte its PSFs, captured image, and evaluate its performance.
